@@ -1,0 +1,392 @@
+/uufs/chpc.utah.edu/common/home/u1079968/bin/bingo/bingo/symbolic_regression/__init__.py:31: UserWarning: Could not load C++ modules cannot import name 'AGraph' from 'bingocpp' (unknown location)
+  warnings.warn(f"Could not load C++ modules {import_err}")
+/uufs/chpc.utah.edu/common/home/u1079968/bin/bingo_nolan_fork/bingo/symbolic_regression/__init__.py:31: UserWarning: Could not load C++ modules cannot import name 'AGraph' from 'bingocpp' (unknown location)
+  warnings.warn(f"Could not load C++ modules {import_err}")
+b
+
+b
+b
+b
+b
+b
+b
+/uufs/chpc.utah.edu/common/home/u1079968/bin/bingo_nolan_fork/bingo/symbolic_regression/agraph/evaluation_backend/operator_eval.py:144: RuntimeWarning: overflow encountered in exp
+  return np.exp(forward_eval[param1])
+/uufs/chpc.utah.edu/common/home/u1079968/bin/bingo_nolan_fork/bingo/symbolic_regression/bayes_fitness_function.py:97: RuntimeWarning: overflow encountered in square
+  ssqe = np.sum((self.training_data.y - f) ** 2)
+/uufs/chpc.utah.edu/common/home/u1079968/bin/SMCPy/smcpy/log_likelihoods.py:40: RuntimeWarning: overflow encountered in square
+  ssqe = np.sum((output - data) ** 2, axis=1)
+Weights sum to zero, can't be normalized
+b
+b
+/uufs/chpc.utah.edu/common/home/u1079968/bin/bingo_nolan_fork/bingo/symbolic_regression/agraph/evaluation_backend/operator_eval.py:166: RuntimeWarning: overflow encountered in power
+  return np.power(forward_eval[param1], forward_eval[param2])
+b
+b
+
+b
+b
+b
+b
+b
+
+b
+b
+b
+b
+b
+b
+b
+/uufs/chpc.utah.edu/common/home/u1079968/.conda/envs/myenv/lib/python3.7/site-packages/numpy/core/fromnumeric.py:87: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+b
+
+b
+
+b
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+
+b
+b
+b
+/uufs/chpc.utah.edu/common/home/u1079968/bin/SMCPy/smcpy/smc/particles.py:192: UserWarning: Covariance matrix is not positive definite; setting off-diagonal terms to zero.
+  warnings.warn('Covariance matrix is not positive definite; setting '
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+b
+
+b
+b
+
+b
+b
+b
+b
+
+b
+b
+
+b
+b
+b
+b
+
+b
+b
+b
+b
+b
+b
+
+b
+b
+b
+b
+b
+b
+b
+b
+b
+
+b
+
+b
+b
+b
+b
+b
+b
+b
+b
+b
+Weights sum to zero, can't be normalized
+b
+
+b
+
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+b
+
+b
+b
+b
+b
+b
+b
+b
+
+b
+b
+b
+b
+b
+b
+
+b
+
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+
+b
+b
+b
+b
+b
+b
+b
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+b
+
+b
+Weights sum to zero, can't be normalized
+b
+b
+b
+b
+b
+
+b
+b
+b
+b
+
+b
+b
+b
+b
+b
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+b
+
+b
+
+b
+b
+b
+/uufs/chpc.utah.edu/common/home/u1079968/.conda/envs/myenv/lib/python3.7/site-packages/scipy/stats/_multivariate.py:664: RuntimeWarning: covariance is not positive-semidefinite.
+  out = random_state.multivariate_normal(mean, cov, size)
+
+b
+b
+b
+
+b
+b
+b
+b
+
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+b
+b
+
+b
+b
+b
+b
+
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+b
+b
+b
+b
+
+b
+b
+
+b
+b
+b
+
+b
+b
+b
+b
+
+b
+b
+
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+/uufs/chpc.utah.edu/common/home/u1079968/bin/SMCPy/smcpy/mcmc/mcmc_base.py:122: RuntimeWarning: overflow encountered in exp
+  return np.exp(new_log_post - old_log_post).reshape(-1, 1)
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+
+b
+b
+
+b
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+Matrix is not positive definite
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+b
+
+b
+b
+
+b
+b
+b
+Weights sum to zero, can't be normalized
+b
+Weights sum to zero, can't be normalized
+b
+Weights sum to zero, can't be normalized
+b
+b
+b
+b
+b
+
+b
+
+b
+b
+
+b
+Weights sum to zero, can't be normalized
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+b
+b
+b
+b
+b
+b
+
+b
+b
+/uufs/chpc.utah.edu/common/home/u1079968/bin/bingo_nolan_fork/bingo/symbolic_regression/agraph/evaluation_backend/operator_eval.py:173: RuntimeWarning: overflow encountered in multiply
+  forward_eval[param2] / forward_eval[param1]
+/uufs/chpc.utah.edu/common/home/u1079968/bin/bingo_nolan_fork/bingo/symbolic_regression/agraph/evaluation_backend/operator_eval.py:175: RuntimeWarning: overflow encountered in multiply
+  forward_eval[reverse_index] *\
+/uufs/chpc.utah.edu/common/home/u1079968/bin/bingo_nolan_fork/bingo/symbolic_regression/agraph/evaluation_backend/operator_eval.py:96: RuntimeWarning: overflow encountered in true_divide
+  forward_eval[reverse_index] / forward_eval[param2]
+b
+b
+b
+b
+b
+b
+b
+
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+
+b
+b
+
+b
+b
+
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+b
+
+b
+b
+b
+
+b
+
+b
+b
+
+b
+
+b
+
+b
+
+b
+
+b
+b

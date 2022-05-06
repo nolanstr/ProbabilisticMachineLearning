@@ -27,7 +27,7 @@ from bingo_nolan_fork.bingo.evolutionary_algorithms.generalized_crowding import 
 from bingo_nolan_fork.bingo.evolutionary_optimizers.island import Island
 
 
-from bingo_nolan_fork.bingo.symbolic_regression.apriori_bff import \
+from bingo_nolan_fork.bingo.symbolic_regression.bayes_fitness_function import \
                         BayesFitnessFunction
 
 from yaml_extractor import *
@@ -40,30 +40,10 @@ def build_component_generator(training_data, operators):
 
     return component_generator
 
-
-def monotonic_increasing(x):
-    dx = np.diff(x)
-    return np.all(dx > 0)
-
-def apriori_function(individual, step_list, training_data):
-    nparams = individual.get_number_local_optimization_params()
-    if nparams == 0:
-        return False
-
-    individual.set_local_optimization_params(step_list[-1].params[:,:nparams].T)
-    output = individual.evaluate_equation_at(training_data.x)
-
-    upper = np.max(output, axis=1)
-    lower = np.min(output, axis=1)
-    ranges = upper-lower
-    check = monotonic_increasing(ranges)
-    
-    return check
-    
 def bridge(inputs):
     
     gparams, sparams, dsets = \
-                    pull_data_from_yaml('../../gpsr_hyperparams2upd.yaml')
+                    pull_data_from_yaml('../../gpsr_hyperparams1upd.yaml')
 
     data = np.load('../../noisy_data.npy')
     training_data = ExplicitTrainingData(x=data[:,0], y=data[:,1])
@@ -79,7 +59,7 @@ def bridge(inputs):
 
     agraph_generator = AGraphGenerator(gparams[2], component_generator)
 
-    fbf = BayesFitnessFunction(clo, apriori_function,
+    fbf = BayesFitnessFunction(clo,
             num_particles=sparams[0], mcmc_steps=sparams[1])
     evaluator = Evaluation(fbf)#, redundant=True, multiprocess=1)
 

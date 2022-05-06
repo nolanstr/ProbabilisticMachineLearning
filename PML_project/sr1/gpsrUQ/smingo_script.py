@@ -46,7 +46,6 @@ def monotonic_increasing(x):
     return np.all(dx > 0)
 
 def apriori_function(individual, step_list, training_data):
-    individual = 
     nparams = individual.get_number_local_optimization_params()
     if nparams == 0:
         return False
