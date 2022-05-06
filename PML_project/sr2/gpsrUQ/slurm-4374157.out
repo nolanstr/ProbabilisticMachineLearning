@@ -390,3 +390,1218 @@ b
 
 b
 b
+
+b
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+b
+b
+
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+b
+
+b
+
+b
+b
+
+b
+b
+/uufs/chpc.utah.edu/common/home/u1079968/bin/bingo_nolan_fork/bingo/symbolic_regression/agraph/evaluation_backend/operator_eval.py:78: RuntimeWarning: overflow encountered in multiply
+  return forward_eval[param1] * forward_eval[param2]
+Weights sum to zero, can't be normalized
+b
+b
+
+b
+b
+b
+b
+b
+b
+b
+Weights sum to zero, can't be normalized
+b
+Weights sum to zero, can't be normalized
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+b
+
+b
+b
+
+b
+/uufs/chpc.utah.edu/common/home/u1079968/bin/bingo_nolan_fork/bingo/symbolic_regression/agraph/evaluation_backend/operator_eval.py:84: RuntimeWarning: overflow encountered in multiply
+  reverse_eval[param2] += reverse_eval[reverse_index]*forward_eval[param1]
+/uufs/chpc.utah.edu/common/home/u1079968/bin/SMCPy/smcpy/log_likelihoods.py:32: RuntimeWarning: overflow encountered in square
+  var = std_dev ** 2
+Weights sum to zero, can't be normalized
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+b
+b
+
+b
+b
+b
+b
+
+b
+b
+
+b
+b
+
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+b
+b
+b
+
+b
+b
+b
+b
+Weights sum to zero, can't be normalized
+b
+Weights sum to zero, can't be normalized
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+b
+Weights sum to zero, can't be normalized
+b
+b
+
+b
+b
+b
+
+b
+
+b
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+b
+
+b
+b
+b
+b
+
+b
+b
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+b
+
+b
+b
+
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+/uufs/chpc.utah.edu/common/home/u1079968/bin/bingo_nolan_fork/bingo/symbolic_regression/agraph/evaluation_backend/operator_eval.py:176: RuntimeWarning: overflow encountered in multiply
+  np.log(forward_eval[param1])
+b
+b
+b
+
+b
+b
+b
+b
+b
+b
+
+b
+b
+
+b
+b
+
+b
+b
+b
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+
+b
+b
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+/uufs/chpc.utah.edu/common/home/u1079968/bin/bingo_nolan_fork/bingo/symbolic_regression/agraph/evaluation_backend/operator_eval.py:89: RuntimeWarning: overflow encountered in true_divide
+  return forward_eval[param1] / forward_eval[param2]
+b
+b
+b
+b
+b
+b
+/uufs/chpc.utah.edu/common/home/u1079968/bin/bingo_nolan_fork/bingo/symbolic_regression/agraph/evaluation_backend/operator_eval.py:94: RuntimeWarning: overflow encountered in double_scalars
+  reverse_eval[param1] += reverse_eval[reverse_index] / forward_eval[param2]
+/uufs/chpc.utah.edu/common/home/u1079968/bin/bingo_nolan_fork/bingo/symbolic_regression/agraph/evaluation_backend/operator_eval.py:96: RuntimeWarning: overflow encountered in double_scalars
+  forward_eval[reverse_index] / forward_eval[param2]
+
+b
+b
+b
+b
+b
+b
+/uufs/chpc.utah.edu/common/home/u1079968/bin/bingo_nolan_fork/bingo/symbolic_regression/agraph/evaluation_backend/operator_eval.py:150: RuntimeWarning: overflow encountered in multiply
+  forward_eval[reverse_index]
+Weights sum to zero, can't be normalized
+b
+b
+
+b
+b
+/uufs/chpc.utah.edu/common/home/u1079968/bin/bingo_nolan_fork/bingo/symbolic_regression/agraph/evaluation_backend/operator_eval.py:83: RuntimeWarning: overflow encountered in multiply
+  reverse_eval[param1] += reverse_eval[reverse_index]*forward_eval[param2]
+b
+b
+
+b
+
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+
+b
+b
+b
+b
+b
+Matrix is not positive definite
+b
+
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+
+b
+b
+
+b
+b
+
+b
+
+b
+b
+b
+b
+b
+
+b
+b
+b
+b
+b
+
+b
+
+b
+b
+Weights sum to zero, can't be normalized
+b
+
+b
+Weights sum to zero, can't be normalized
+b
+b
+b
+
+b
+b
+b
+b
+b
+Weights sum to zero, can't be normalized
+b
+Weights sum to zero, can't be normalized
+b
+
+b
+b
+b
+b
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+b
+b
+b
+b
+b
+b
+
+b
+b
+Weights sum to zero, can't be normalized
+b
+
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+b
+b
+b
+
+b
+b
+b
+b
+b
+b
+b
+b
+b
+
+b
+
+b
+b
+b
+b
+
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+
+b
+b
+
+b
+Weights sum to zero, can't be normalized
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+b
+b
+
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+
+b
+
+b
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+b
+
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+b
+b
+b
+b
+b
+
+b
+
+b
+b
+b
+b
+b
+b
+
+b
+
+b
+
+b
+
+b
+Weights sum to zero, can't be normalized
+b
+b
+b
+
+b
+b
+b
+b
+b
+
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+b
+b
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+b
+b
+b
+b
+Weights sum to zero, can't be normalized
+b
+
+b
+b
+b
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+
+b
+b
+
+b
+b
+b
+
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+
+b
+b
+
+b
+b
+b
+b
+b
+
+b
+
+b
+
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+b
+b
+
+b
+b
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+b
+
+b
+b
+Weights sum to zero, can't be normalized
+b
+
+b
+
+b
+
+b
+
+b
+Weights sum to zero, can't be normalized
+b
+b
+b
+b
+b
+b
+
+b
+b
+
+b
+b
+b
+b
+b
+b
+b
+
+b
+b
+b
+b
+
+b
+
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+
+b
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+
+b
+b
+b
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+b
+b
+b
+
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+b
+Weights sum to zero, can't be normalized
+b
+
+b
+b
+b
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+b
+b
+b
+
+b
+b
+
+b
+b
+b
+b
+b
+b
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+
+b
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+b
+
+b
+
+b
+
+b
+
+b
+
+b
+
+b
+b
+b
+b
+b
+b
+
+b
+
+b
+b
+b
+
+b
+b
+b
+b
+Matrix is not positive definite
+b
+b
+
+b
+
+b
+
+b
+
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+
+b
+
+b
+b
+b
+b
+b
+
+b
+b
+
+b
+
+b
+b
+b
+b
+
+b
+b
+
+b
+b
+b
+b
+b
+b
+b
+
+b
+Weights sum to zero, can't be normalized
+b
+
+b
+b
+
+b
+
+b
+
+b
+b
+b
+
+b
+b
+
+b
+
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+Matrix is not positive definite
+b
+b
+b
+b
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+b
+b
+b
+b
+
+b
+
+b
+b
+b
+
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+b
+b
+/uufs/chpc.utah.edu/common/home/u1079968/bin/bingo_nolan_fork/bingo/symbolic_regression/agraph/evaluation_backend/operator_eval.py:94: RuntimeWarning: overflow encountered in true_divide
+  reverse_eval[param1] += reverse_eval[reverse_index] / forward_eval[param2]
+b
+b
+b
+
+b
+b
+
+b
+b
+b
+b
+b
+b
+
+b
+
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+
+b
+b
+
+b
+b
+
+b
+b
+b
+
+b
+b
+b
+
+b
+b
+b
+
+b
+b
+b
+b
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+b
+
+b
+b
+b
+
+b
+b
+b
+b
+
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+b
+b
+b
+b
+
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+b
+/uufs/chpc.utah.edu/common/home/u1079968/bin/bingo_nolan_fork/bingo/symbolic_regression/agraph/evaluation_backend/operator_eval.py:56: RuntimeWarning: overflow encountered in add
+  return forward_eval[param1] + forward_eval[param2]
+b
+
+b
+b
+
+b
+b
+
+b
+
+b
+
+b
+
+b
+b
+Matrix is not positive definite
+b
+
+b
+
+b
+b
+/uufs/chpc.utah.edu/common/home/u1079968/bin/bingo_nolan_fork/bingo/symbolic_regression/agraph/evaluation_backend/operator_eval.py:96: RuntimeWarning: overflow encountered in multiply
+  forward_eval[reverse_index] / forward_eval[param2]
+b
+b
+b
+b
+b
+
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+b
+
+b
+Weights sum to zero, can't be normalized
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+b
+
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+
+b
+b
+b
+b
+b
+
+b
+
+b
+b
+b
+b
+
+b
+b
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+
+b
+b
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+b
+b
+
+b
+b
+b
+
+b
+Weights sum to zero, can't be normalized
+b
+b
+b
+
+b
+b
+
+b
+
+b
+b
+b
+b
+
+b
+
+b
+b
+
+b
+
+b
+
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+
+b
+
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+
+b
+b
+b
+b
+b
+
+b
+
+b
+b
+b
+b
+b
+b
+b
+b
+
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+
+b
+b
+
+b
+
+b
+b
+b
+b
+b
+
+b
+
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+b
+Weights sum to zero, can't be normalized
+b
+b
+
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+
+b
+
+b
+b
+b
+b
+b
+
+b
+b
+b
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+b
+b
+Weights sum to zero, can't be normalized
+b
+b
+b
+b
+b
+
+b
+b
+b
+
+b
+
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+b
+b
+b
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+
+b
+
+b
+b
+
+b
+b
+
+b
+b
+
+b
+
+b
+b
+b
+b
+
+b
+
+b
+b
+b
+b
+
+b
+b
+
+b
+b
+b
+b
+b
+b
+
+b
+b
+b
+b
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+!!!SETTING OFF CENTER TO ZERO AND DIAGNOL TO ONE!!!
+Matrix is not positive definite
+b
+b
+
+b

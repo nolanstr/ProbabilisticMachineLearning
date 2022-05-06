@@ -15,10 +15,12 @@ def gen_data():
 
     np.save('noisy_data', data)
     plt.scatter(x, y_true, c=np.array(plt.cm.Pastel1(3)).reshape((1,-1)), 
-                                                        label='True Model')
-    plt.plot(x, y_noisy, c=plt.cm.Pastel1(4), label='Noisy parameters')
+                                                        label='true Model')
+    plt.plot(x, y_noisy, c=plt.cm.Pastel1(4), label='noisy data')
+    plt.title('plot of noisy data and noiseless (true) model')
     plt.xlabel('x')
     plt.ylabel('y')
+    plt.legend()
     plt.savefig('data_check', dpi=1000)
 
 if __name__ == '__main__':
