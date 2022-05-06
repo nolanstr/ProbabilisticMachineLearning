@@ -1,0 +1,27 @@
+gpsr:
+    pop_size: 100
+    offspring_size: 40
+    stack_size: 64
+    max_generations: 20000
+    fitness_threshold: -90
+    check_frequency: 200
+    min_generations: 200
+    crossover_probability: 0.40
+    mutation_probability: 0.40
+    mathematical_operators:
+        - 2
+        - 3
+        - 4
+        - 5
+        - 8
+        - 10
+        - 12
+    
+smc:
+    particles: 600
+    smc_steps: 20
+    mcmc_steps: 5
+datasets:
+    - 1
+    - 2
+    - 3
