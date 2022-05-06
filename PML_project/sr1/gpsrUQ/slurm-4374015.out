@@ -1,0 +1,4 @@
+  File "smingo_script.py", line 49
+    individual = 
+                ^
+SyntaxError: invalid syntax
