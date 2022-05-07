@@ -31,8 +31,9 @@ def return_hof(DIR):
     return hof
 
 repos = ['sr2/gpsrUQ', 'sr1/gpsrUQ']
+file_names = ['new_sr1', 'new_sr2']
 
-for repo in repos:
+for file_name, repo in zip(file_names, repos):
 
     hof = return_hof(repo)
     clo, fbf, training_data = get_ffs_w_xy(yaml_file, data[:,0], data[:,1])
@@ -44,5 +45,5 @@ for repo in repos:
         plot_model_on_fig(ax, model, training_data, fbf, color, 0, iters=20) 
 
     plt.tight_layout()
-    plt.savefig(repo[0:3], dpi=1000)
+    plt.savefig(file_name, dpi=1000)
 
