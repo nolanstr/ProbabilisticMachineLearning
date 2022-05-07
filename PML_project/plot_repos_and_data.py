@@ -29,8 +29,8 @@ def return_hof(DIR):
     
     return hof
 
-repos = ['sr2/gpsrUQ', 'sr1/gpsrUQ']
-file_names = ['new_sr1', 'new_sr2']
+repos = ['sr1/gpsrUQ', 'sr2/gpsrUQ']
+file_names = ['NEW_sr1', 'NEW_sr2']
 
 for file_name, repo in zip(file_names, repos):
 
