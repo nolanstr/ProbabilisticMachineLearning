@@ -38,7 +38,7 @@ for file_name, repo in zip(file_names, repos):
     hof = return_hof(repo)
     clo, fbf, training_data = get_ffs_w_xy(yaml_file, data[:,0], data[:,1])
     
-    fix, ax = plt.subplots()
+    fig, ax = plt.subplots(1)
     ax.scatter(training_data.x[:,0], training_data.y, c='k', label='Training Data')
 
     for model in hof:
