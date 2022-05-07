@@ -39,11 +39,11 @@ for file_name, repo in zip(file_names, repos):
     clo, fbf, training_data = get_ffs_w_xy(yaml_file, data[:,0], data[:,1])
     
     fig, ax = plt.subplots(1)
-    ax.scatter(training_data.x[:,0], training_data.y, c='k', label='Training Data')
 
     for model, color in zip(hof, colors):
         plot_model_on_fig(ax, model, training_data, fbf, color, 0, iters=20) 
 
+    ax.scatter(training_data.x[:,0], training_data.y, c='k', label='Training Data')
     plt.tight_layout()
     plt.savefig(file_name, dpi=1000)
 
