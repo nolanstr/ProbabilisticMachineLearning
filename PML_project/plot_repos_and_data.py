@@ -15,7 +15,6 @@ from util.cred_pred_functions import *
 
 data = np.load('noisy_data.npy')[1:,:]
 yaml_file = 'gpsr_hyperparams1upd.yaml'
-color = plt.cm.Pastel1(3)
 def return_hof(DIR):
     
     files = glob.glob(DIR + '/*.pkl')
@@ -36,12 +35,13 @@ file_names = ['new_sr1', 'new_sr2']
 for file_name, repo in zip(file_names, repos):
 
     hof = return_hof(repo)
+    colors = [plt.cm.Pastel1(i) for i in range(len(hof))]
     clo, fbf, training_data = get_ffs_w_xy(yaml_file, data[:,0], data[:,1])
     
     fig, ax = plt.subplots(1)
     ax.scatter(training_data.x[:,0], training_data.y, c='k', label='Training Data')
 
-    for model in hof:
+    for model, color in zip(hof, colors):
         plot_model_on_fig(ax, model, training_data, fbf, color, 0, iters=20) 
 
     plt.tight_layout()
