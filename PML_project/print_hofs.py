@@ -17,6 +17,7 @@ def print_hof(DIR):
     hof = final[0].hall_of_fame
     for ind in hof:
         import pdb;pdb.set_trace()
+        print(f'Fitness NMLL = {ind.fitness}')
         eq_str = ind.get_formatted_string("console")
         try:
             X_0=sy.symbols('X_0')
@@ -30,5 +31,6 @@ def print_hof(DIR):
         print()
     import pdb;pdb.set_trace()
 
-repo = 'sr1/gpsrUQ' 
-print_hof(repo)
+repos= ['sr1/gpsrUQ', 'sr2/gpsrUQ']
+for repo in repos:
+    print_hof(repo)
