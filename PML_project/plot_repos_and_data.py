@@ -45,5 +45,4 @@ for repo in repos:
 
     plt.tight_layout()
     plt.savefig(repo[0:3], dpi=1000)
-    plt.clf()
 
